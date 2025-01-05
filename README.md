@@ -24,10 +24,6 @@ maniluamaker is a simple go program for processing `.manifest` files and `config
 ### Input Files
 
 **File 1: `123456_789012.manifest`**
-```
-(Manifest file content irrelevant to the script; only the filename is used)
-```
-
 **File 2: `config.vdf`**
 ```plaintext
 "123456" {
@@ -44,4 +40,4 @@ addappid(123456, 1, "ABCDEF1234567890")
 setManifestid(123456, "789012", 0)
 ```
 
-<sub>maniluamaker © 2025 by piracybound is licensed under CC BY-ND 4.0</sub>
+<sub>maniluamaker © 2025 by piracybound is licensed under <a href="https://github.com/piracybound/maniluamaker/blob/main/LICENSE">CC BY-ND 4.0</a></sub>
