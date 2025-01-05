@@ -1,12 +1,15 @@
 # maniluamaker
+
 maniluamaker is a simple go program for processing `.manifest` files and `config.vdf` files, generating a lua script that combines manifest and decryption key data.
 
 ## Build
+
 - Ensure you have Go installed on your system. [Install Go](https://golang.org/doc/install) if you haven't already.
+
 1. Clone the repository to your local machine.
 2. Build the program:
    ```bash
-   go build -o maniluamaker.exe
+   go build .
    ```
 
 ## Usage
@@ -25,6 +28,7 @@ maniluamaker is a simple go program for processing `.manifest` files and `config
 
 **File 1: `123456_789012.manifest`**
 **File 2: `config.vdf`**
+
 ```plaintext
 "123456" {
     "DecryptionKey" "ABCDEF1234567890"
@@ -32,6 +36,7 @@ maniluamaker is a simple go program for processing `.manifest` files and `config
 ```
 
 ### Generated Output File: `12345.lua`
+
 ```lua
 -- manifest & lua provided by: https://www.piracybound.com/discord
 -- via manilua
